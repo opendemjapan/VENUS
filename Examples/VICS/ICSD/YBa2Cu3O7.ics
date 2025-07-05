@@ -1,0 +1,42 @@
+ COL  ICSD Collection Code 62921
+ DATE Recorded Dec 19, 1988; updated Dec 30, 1988
+ NAME Barium yttrium copper oxide (2/1/3/6.89) - prepared at T = 930 C
+ FORM Ba2 Y Cu3 O6.89
+      = Ba2 Cu3 O6.89 Y
+ TITL Crystal structure of the orthorhombic form of Ba2 Y Cu3 O7-x at 42 
+      K
+ REF  Japanese Journal of Applied Physics, Part 2
+      JAPLD 26 (1987) 1193-1196
+ AUT  Izumi F, AsanoÿH, IshigakiÿT, Takayama MuromachiÿE, UchidaÿY, 
+      WatanabeÿN
+ CELL a=3.880(3) b=3.812(2) c=11.626(1) à=90.0 á=90.0 ç=90.0
+      V=172.0 Z=1
+ SGR  P m m m       (47) - orthorhombic
+ CLAS mmm   (Hermann-Mauguin) - D2h (Schoenflies)
+ PRS  oP13
+ ANX  AB2C3X7
+ PARM Atom__No OxStat  Wyck -----X----- -----Y----- -----Z-----  -SOF-
+      Ba     1  2.000    2t  1/2         1/2         0.1845(4)
+      Y      1  3.000    1h  1/2         1/2         1/2
+      Cu     1  2.000    1a  0.          0.          0.
+      Cu     2  2.000    2q  0.          0.          0.3536(2)     0.61
+      Cu     3  3.000    2q  0.          0.          0.3536(2)     0.39
+      O      1 -2.000    1b  1/2         0.          0.            0.84(2)
+      O      2 -2.000    1e  0.          1/2         0.            0.05(1)
+      O      3 -2.000    2q  0.          0.          0.1595(3)
+      O      4 -2.000    2r  0.          1/2         0.3779(4)
+      O      5 -2.000    2s  1/2         0.          0.3773(4)
+ WYCK t s r q2 h e b a
+ ITF  Ba  1   U=0.09(6)
+ ITF  Y   1   U=0.03(6)
+ ITF  Cu  1   U=0.02(5)
+ ITF  Cu  2   U=0.19(4)
+ ITF  Cu  3   U=0.19(4)
+ ITF  O   1   U=0.05(12)
+ ITF  O   2   U=0.05(12)
+ ITF  O   3   U=0.25(6)
+ ITF  O   4   U=0.20(6)
+ ITF  O   5   U=0.23(7)
+ REM  NDP (neutron diffraction from a powder)
+ REM  TEM 42
+ RVAL 0.022

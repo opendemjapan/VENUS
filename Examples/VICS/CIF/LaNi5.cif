@@ -1,0 +1,75 @@
+_audit_creation_date              '2002-02-11'
+
+#  Crystal Data
+
+_chemical_formula_sum              'La Ni5'
+
+#  Publication Data
+
+_journal_name_full                 'J. alloys compd.'
+_journal_coden_ASTM                JALCEU
+_journal_volume                    185
+_journal_year                      1992
+_journal_page_first                369
+_journal_page_last                 384
+
+#  Unit Cell Data
+
+_cell_length_a                     5.0125(3)
+_cell_length_b                     5.0125(3)
+_cell_length_c                     3.9873(2)
+_cell_angle_alpha                 90
+_cell_angle_beta                  90
+_cell_angle_gamma                 120.
+_cell_volume                       86.76
+_cell_formula_units_Z              1
+
+#  Space Group
+
+_symmetry_space_group_name_H-M     'P 6/m m m'
+_symmetry_Int_Tables_number        191
+_symmetry_cell_setting             hexagonal
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x,y,z'
+'-y,x-y,z'
+'-x+y,-x,z'
+'-x,-y,z'
+'y,-x+y,z'
+'x-y,x,z'
+'y,x,-z'
+'x-y,-y,-z'
+'-x,-x+y,-z'
+'-y,-x,-z'
+'-x+y,y,-z'
+'x,x-y,-z'
+'-x,-y,-z'
+'y,-x+y,-z'
+'x-y,x,-z'
+'x,y,-z'
+'-y,x-y,-z'
+'-x+y,-x,-z'
+'-y,-x,z'
+'-x+y,y,z'
+'x,x-y,z'
+'y,x,z'
+'x-y,-y,z'
+'-x,-x+y,z'
+
+#  Atomic Coordinates
+
+loop_
+_atom_site_label
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+La  1  a  0  0  0  1  La
+Ni1  2  c  0.3333  0.6667  0  1  Ni
+Ni2  3  g  0.5000  0  0.5000  1  Ni
+
+

@@ -1,0 +1,61 @@
+# Title. (CHARACTER*80)
+BaSO4
+
+# Unit cell parameters.
+   8.87590   5.45213   7.15271  90.00000  90.00000  90.00000
+
+# Space-group number, setting and number of pixels.
+    62    1   64   64   64
+
+# Integrated intensities were determined from
+# 0: X-ray diffraction data. 
+# 1: Neutron diffraction data of a compound containing no element
+#    with a negative coherent-scattering length.
+0
+
+# The number of chemical species.
+    3
+
+# Real chemical species and numbers of atoms in the unit cell.
+   Ba    4  
+    S    4
+    O   16
+
+# The name of an intensity data file including its absolute path.
+# (*.ffo created by RIETAN-2000, *.hkl created by EXPO, or *.raw)  
+C:\Program Files\VENUS\Examples\ALBA\BaSO4\BaSO4E.ffo
+
+# Wavelength (dummy for *.ffo files)
+1.54051
+
+# Which integrated intensities will you use?
+# 0: The integrated intensity is defined as |F|^2.
+# 1: The integrated intensity is defined as multiplicity X |F|^2.
+0
+
+# The initial Lagrangian multiplier.
+0.01  
+
+# The coefficient, t, to adjust the Lagrangian multiplier.
+0.005
+
+# The coefficient, SCIO, to adjust estimated standard deviations.
+# (dummy for *.hkl created by EXPO)
+  1000
+
+# Will you group overlapped reflections? (NGSW)
+# 0: Yes (reflections overlapped heavily are grouped).
+# 1: No (all the reflections are independently input).
+0
+
+# Maximum difference in d/Angstrom in grouped reflections.
+# (dummy if NGSW = 1)
+  0.00005
+
+# Parameters (v, p, and b) to estimate standard deviations, s.
+# s = v * sqrt[p*|F^2| + (b + |F^2|)/|F^2|].
+# (dummy for *.ffo created by RIETAN-2000)
+  1.000  0.0005  0.000
+
+# The maximum number of MEP iterations.
+888888

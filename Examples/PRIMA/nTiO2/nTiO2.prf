@@ -1,0 +1,79 @@
+$PREFERENCES
+
+#**********************************************************
+#                    FILES FOR PRIMA                      #
+#**********************************************************
+# 1: The MEM data set file, *.fos or *.mem
+# 2: Standard output data file, *.out
+# 3: 3D densities file, *.pri
+# 4: Feedback data file, *.fba
+# 5: epsilon(Gauss) distribution data file, *_eps.raw or *_eps.pat
+C:\Program Files\VENUS\Examples\PRIMA\nTiO2\nTiO2.mem
+C:\Program Files\VENUS\Examples\PRIMA\nTiO2\nTiO2.out
+C:\Program Files\VENUS\Examples\PRIMA\nTiO2\nTiO2.pri
+C:\Program Files\VENUS\Examples\PRIMA\nTiO2\nTiO2.fba
+C:\Program Files\VENUS\Examples\PRIMA\nTiO2\nTiO2_eps.raw
+
+#**********************************************************
+#                        SETTINGS                         #
+#**********************************************************
+
+# The type of the MEM data set file.
+# 0: (a) X-ray diffraction data or (b) neutron diffraction data of a compound
+#    containing no element with a negative coherent-scattering length.
+# 1: Neutron diffraction data of a compound containing at least one element
+#    with a negative coherent-scattering length.
+1
+
+# Which prior densities will you use?
+# 0: Uniform densities.
+# 1: Densities recorded in a file.
+0
+
+# The approximation mode.
+# 0: 0th order single-pixel approximation.
+# 1: Nonlinear single-pixel approximation with the Newton-Raphson method.
+0
+
+# Will you use the G-constraint?
+# 0: No.
+# 1: Yes.
+1
+
+# Which initial Lagrangian multiplier will you use (LM_type)?
+# 0: The value written in this file.
+# 1: The value calculated by PRIMA.
+# 2: The value written in the MEM data set text file.
+2
+
+# The initial Lagrangian multiplier (dummy if LM_type = 1 or 2).
+ 0.02000
+
+# The coefficient, t, to adjust the Lagrangian multiplier.
+0.020
+
+# The coefficient, SCIO, to adjust estimated standard deviations.
+# (dummy for MEM data set text file, *.mem)
+  1000
+
+# Will you save a feedback data file?
+# 0: Yes (output only individual structure factors).
+# 1: Yes (output structure factors including those for grouped reflections
+#    and estimated for unobserved reflections).
+# 2: No.
+0
+
+# Will you save an epsilon(Gauss) distribution data file?
+# 0: Yes (raw data file, *_eps.raw).
+# 1: Yes (Igor Text file, *_eps.pat).
+# 2: No.
+0
+
+# The maximum number of MEM iterations.
+999999
+
+# Save output files
+# 0: Only when C <= 1;
+#    for the constraint C, refer to Eq. (15) in the LaTeX document.
+# 1: Yes.
+0

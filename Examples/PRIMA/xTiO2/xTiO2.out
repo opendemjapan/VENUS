@@ -1,0 +1,73 @@
+ 
+
+    *********************************************************************
+                                                                         
+     PPPPPPPPPPPP    RRRRRRRRRRRR    III  MMM        MMM       AAAAAAAAA 
+     PPPPPPPPPPPPP   RRRRRRRRRRRRR   III  MMMM      MMMM      AAAAAAAAAA 
+     PPP        PPP  RRR        RRR  III  MMMMM    MMMMM     AAA     AAA 
+     PPP        PPP  RRR        RRR  III  MMM MM  MM MMM    AAA      AAA 
+     PPP        PPP  RRR        RRR  III  MMM  MMMM  MMM   AAA       AAA 
+     PPPPPPPPPPPPP   RRRRRRRRRRRRR   III  MMM   MM   MMM  AAAAAAAAAAAAAA 
+     PPPPPPPPPPPP    RRRRRRRRRRRR    III  MMM        MMM  AAAAAAAAAAAAAA 
+     PPP             RRR    RRR      III  MMM        MMM  AAA        AAA 
+     PPP             RRR      RRR    III  MMA        MMM  AAA        AAA 
+     PPP             RRR        RRR  III  MMM        MMM  AAA        AAA 
+                                                                         
+                                   Ver. 3.5                              
+                                                                         
+         A Fortran 90 Program to Determine Electron/Nuclear Densities    
+                   from X-Ray and Neutron Diffraction Data               
+    ---------------------------------------------------------------------
+                             Copyright (C) 2004                          
+                      Ruben A. Dilanian and Fujio Izumi                  
+ 
+
+ ******************** Data and settings for MEM analysis ********************
+ 
+  (a) X-ray diffraction data or (b) neutron diffraction data of a compound
+  containing no element with a negative coherent-scattering length.
+ 
+                      MEM data set file: 
+ C:\Program Files\VENUS\Examples\PRIMA\xTiO2\xTiO2.mem
+                   Standard output file: 
+ C:\Program Files\VENUS\Examples\PRIMA\xTiO2\xTiO2.out
+                 3D densities data file: 
+ C:\Program Files\VENUS\Examples\PRIMA\xTiO2\xTiO2.pri
+                     Feedback data file: 
+ C:\Program Files\VENUS\Examples\PRIMA\xTiO2\xTiO2.fba
+  epsilon(Gauss) distribution data file: 
+ C:\Program Files\VENUS\Examples\PRIMA\xTiO2\xTiO2_eps.raw
+ 
+  Title: TiO2 ( Powder X-ray Data by T.UNO )                                   
+ 
+  Lattice parameters:
+         a =   4.59393     b =   4.59393      c =   2.95886
+     alpha =  90.00000  beta =  90.00000  gamma =  90.00000
+         V =    62.444
+ 
+  Space group: P 42/m n m
+  Space group number: 136
+  Setting number: 1
+  International Tables for Crystallography, Vol. A
+ 
+  Numbers of reflections used in MEM analysis:
+     NREF1(F) =   34
+     NREF2(G) =    0
+     NREF3(E) =   11
+ 
+  Number of pixels in the asymmetric unit =     17441
+        Number of pixels in the unit cell =    262144 ( 64 X  64 X  64)
+ 
+  Number of electrons in the unit cell (X-ray diffraction)
+  or the sum of coherent-scattering lengths for all the atoms
+  in the unit cell (neutron diffraction):    76.00000    
+ 
+  Prior density distribution is uniform.
+  0th order single-pixel approximation
+  Analyzed by using the F-constraint (no G-constraint).
+  Initial lambda =  0.020000 (input by the user)
+  Coefficient, t, to adjust lambda = 0.020
+ 
+  CONSTR =  0.8877746E+04   RF = 1.000000
+    CONF =  0.3018434E+06  wRF = 1.000000
+    CONG =  0.0000000E+00

@@ -1,0 +1,30 @@
+ COL  ICSD Collection Code 23823
+ DATE Recorded Jan 1, 1980; updated May 9, 1985
+ NAME Gadolinium iron(III) oxide
+ FORM Gd Fe O3
+      = Fe Gd O3
+ TITL Determination of the Crystal Structure of Yttrium Orthoferrite and 
+      Refinement of Gadolinium Orthoferrite
+ REF  Acta Crystallographica (1,1948-23,1967)
+      ACCRA 19 (1965) 524-531
+ AUT  Coppens P, EibschuetzÿM
+ CELL a=5.346(4) b=5.616(4) c=7.668(4) à=90.0 á=90.0 ç=90.0
+      V=230.2 Z=4
+ SGR  P b n m       (62) - orthorhombic
+ CLAS mmm   (Hermann-Mauguin) - D2h (Schoenflies)
+ PRS  oP20
+ ANX  ABX3
+ PARM Atom__No OxStat  Wyck -----X----- -----Y----- -----Z-----  -SOF-
+      Gd     1  3.000    4c -0.0175(6)   0.0622(9)   1/4
+      Fe     1  3.000    4b  0.          1/2         0.
+      O      1 -2.000    4c  0.106(9)    0.466(7)    1/4
+      O      2 -2.000    8d -0.296(4)    0.275(3)    0.062(2)
+ WYCK d c2 b
+ ITF  Gd  1   B=0.03
+ ITF  Fe  1   B=-0.33
+ ITF  O   1   B=0.4
+ ITF  O   2   B=0.
+ REM  REF (refinement of earlier measured intensity data)
+ RVAL 0.150
+ TEST At least one temperature factor is implausible or meaningless but 
+      agrees with the value given in the paper. (Code 52)

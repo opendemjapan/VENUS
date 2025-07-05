@@ -1,0 +1,60 @@
+# Title. (CHARACTER*80)
+Al2O3
+
+# Unit cell parameters.
+   4.75737   4.75737  12.9871   90.00000  90.00000 120.00000
+
+# Space-group number, setting and number of pixels.
+  167    1   64   64   99
+
+# Integrated intensities were determined from
+# 0: X-ray diffraction data. 
+# 1: Neutron diffraction data of a compound containing no element
+#    with a negative coherent-scattering length.
+0
+
+# The number of chemical species.
+    2
+
+# Real chemical species and numbers of atoms in the unit cell.
+   Al   12  
+    O   18
+
+# The name of an intensity data file including its absolute path.
+# (*.ffo created by RIETAN-2000, *.hkl created by EXPO, or *.raw)  
+C:\Program Files\VENUS\Examples\ALBA\Al2O3\Al2O3.ffo
+
+# Wavelength (dummy for *.ffo files)
+1.54051
+
+# Which integrated intensities will you use?
+# 0: The integrated intensity is defined as |F|^2.
+# 1: The integrated intensity is defined as multiplicity X |F|^2.
+0
+
+# The initial Lagrangian multiplier.
+0.005  
+
+# The coefficient, t, to adjust the Lagrangian multiplier.
+0.01
+
+# The coefficient, SCIO, to adjust estimated standard deviations.
+# (dummy for *.hkl created by EXPO)
+  1000
+
+# Will you group overlapped reflections? (NGSW)
+# 0: Yes (reflections overlapped heavily are grouped).
+# 1: No (all the reflections are independently input).
+0	
+
+# Maximum difference in d/Angstrom in grouped reflections.
+# (dummy if NGSW = 1)
+  0.0003
+
+# Parameters (v, p, and b) to estimate standard deviations, s.
+# s = v * sqrt[p*|F^2| + (b + |F^2|)/|F^2|].
+# (dummy for *.ffo created by RIETAN-2000)
+  1.000  0.0005  0.000
+
+# The maximum number of MEP iterations.
+9999999

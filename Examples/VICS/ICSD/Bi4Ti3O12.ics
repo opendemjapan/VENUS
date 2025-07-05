@@ -1,0 +1,38 @@
+ COL  ICSD Collection Code 16488
+ DATE Recorded Jan 1, 1980
+ NAME Tetrabismuth trititanium oxide
+ FORM Bi4 Ti3 O12
+      = Bi4 O12 Ti3
+ TITL Crystal Structure of Bi4 Ti3 O12
+ REF  Ferroelectrics
+      FEROA 3 (1971) 17-27
+ AUT  Dorrian J F, NewnhamÿRÿE, SmithÿDÿK
+ CELL a=5.448(2) b=5.411(2) c=32.830(10) à=90.0 á=90.0 ç=90.0
+      V=967.8 Z=4
+ SGR  B 2 c b       (41) - orthorhombic
+ CLAS mm2   (Hermann-Mauguin) - C2v (Schoenflies)
+ PRS  oB76
+ ANX  A3B4X12
+ PARM Atom__No OxStat  Wyck -----X----- -----Y----- -----Z-----  -SOF-
+      Bi     1  3.000    8b  0.          0.9978(2)   0.06680(2)
+      Bi     2  3.000    8b  0.9991(3)   0.0199(1)   0.21135(2)
+      Ti     1  4.000    4a  0.0452      0.          1/2
+      Ti     2  4.000    8b  0.0533(6)   0.999(1)    0.3714(1)
+      O      1 -2.000    8b  0.207(4)    0.222(5)    0.9967(8)
+      O      2 -2.000    8b  0.264(7)    0.252(9)    0.2507(7)
+      O      3 -2.000    8b  0.073(4)    0.975(6)    0.4404(8)
+      O      4 -2.000    8b  0.960(4)    0.926(5)    0.3185(8)
+      O      5 -2.000    8b  0.294(4)    0.285(6)    0.1215(8)
+      O      6 -2.000    8b  0.159(4)    0.200(5)    0.8690(8)
+ WYCK b9 a
+ ITF  Bi  1   B=0.62
+ ITF  Bi  2   B=0.51
+ ITF  Ti  1   B=0.41
+ ITF  Ti  2   B=0.47
+ ITF  O   1   B=1.1
+ ITF  O   2   B=1.
+ ITF  O   3   B=1.2
+ ITF  O   4   B=1.5
+ ITF  O   5   B=1.2
+ ITF  O   6   B=0.7
+ RVAL 0.072

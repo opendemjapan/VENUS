@@ -1,0 +1,250 @@
+##############################################################################
+###                                                                        ###
+###           Full Paper (Acta Crystallographica Section C)                ###
+###                                                                        ###
+##############################################################################
+#                                                                            #
+# This CIF contains the data in a paper accepted for publication in Acta     #
+# Crystallographica Section C. It conforms to the editorial and technical    #
+# requirements of Notes for Authors for Section C, and has been peer         #
+# reviewed under the auspices of the IUCr Commission on Journals.            #
+#                                                                            #
+# Full details of the Crystallographic Information File format               #
+# are given in the paper "The Crystallographic Information File (CIF):       #
+# a New Standard Archive File for Crystallography" by S. R. Hall, F. H.      #
+# Allen and I. D. Brown [Acta Cryst. (1991), A47, 655-685].                  #
+#                                                                            #
+# The current version of the core CIF dictionary is obtainable from          #
+# ftp://ftp.iucr.org/pub/cif_core.dic. The current version number is 2.0.1.  #
+#                                                                            #
+# Software is freely available for graphical display of the structure(s) in  #
+# this CIF.  For information consult the CIF home page http://www.iucr.org/  #
+# cif/home.html                                                              #
+#                                                                            #
+#            Copyright International Union of Crystallography                #
+#                                                                            #
+##############################################################################
+data_global
+_journal_date_recd_electronic     98-09-29
+_journal_date_accepted     98-11-30
+_journal_name_full     'Acta Crystallographica, Section C'
+_journal_year     1999
+_journal_volume     C55
+_journal_issue     APR99
+_journal_page_first     479
+_journal_page_last     481
+_journal_paper_category     FI
+_publ_contact_author_name     'Hisanori Yamane'
+_publ_contact_author_address
+;
+Institute for Advanced Materials Processing
+Tohoku University
+2-1-1 Katahira
+Sendai 980-8577
+Japan
+;
+_publ_contact_author_email     yamane@iamp.tohoku.ac.jp
+_publ_contact_author_fax     '81-22-217-5160'
+_publ_contact_author_phone     '81-22-217-5160'
+_publ_section_title
+;
+Gd~3~GaO~6~ by X-ray powder diffraction
+;
+loop_
+    _publ_author_name
+    _publ_author_address
+    'Yamane, Hisanori'
+;
+Institute for Advanced Materials Processing
+Tohoku University
+2-1-1 Katahira
+Aoba-ku
+Sendai 980-8577
+Japan
+;
+    'Sakamoto, Takashi'
+;
+Institute for Advanced Materials Processing
+Tohoku University
+2-1-1 Katahira
+Aoba-ku
+Sendai 980-8577
+Japan
+;
+    'Kubota, Shun-ichi'
+;
+Institute for Advanced Materials Processing
+Tohoku University
+2-1-1 Katahira
+Aoba-ku
+Sendai 980-8577
+Japan
+;
+    'Shimada, Masahiko'
+;
+Institute for Advanced Materials Processing
+Tohoku University
+2-1-1 Katahira
+Aoba-ku
+Sendai 980-8577
+Japan
+;
+_publ_section_synopsis
+;
+Gd~3~GaO~6~ is isostructural with Er~3~GaS~6~ (Cmc2~1~).  It contains
+distorted GaO~4~ tetrahedra and Gd atoms are in two sites of sevenfold
+coordination.
+;
+data_br1230
+_chemical_name_systematic
+;
+trigadolinium galium oxide
+;
+_chemical_name_common     'gadolinium gallium oxide'
+_chemical_formula_moiety     ?
+_chemical_formula_sum     'Gd3 Ga O6'
+_chemical_formula_structural     'Gd~3~(GaO~4~)O~2~'
+_chemical_formula_analytical     ?
+_chemical_formula_iupac     'Gd3 Ga O6'
+_chemical_formula_weight     637.47
+_chemical_melting_point     ?
+_symmetry_cell_setting     'orthorhombic'
+_symmetry_space_group_name_H-M     'C m c 21'
+_symmetry_space_group_name_Hall     ?
+loop_
+    _symmetry_equiv_pos_as_xyz
+    'x, y, z'
+    '-x, -y, z+1/2'
+    'x, -y, z+1/2'
+    '-x, y, z'
+    'x+1/2, y+1/2, z'
+    '-x+1/2, -y+1/2, z+1/2'
+    'x+1/2, -y+1/2, z+1/2'
+    '-x+1/2, y+1/2, z'
+_cell_length_a     8.99280(10)
+_cell_length_b     11.2809(2)
+_cell_length_c     5.48116(9)
+_cell_angle_alpha     90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma     90.0
+_cell_volume     556.05(2)
+_cell_formula_units_Z     4
+_cell_measurement_temperature     293(2)
+_exptl_crystal_density_diffrn     7.615
+_exptl_absorpt_coefficient_mu     246.9
+_exptl_absorpt_correction_type     ?
+_exptl_absorpt_process_details     ?
+_exptl_absorpt_correction_T_min     ?
+_exptl_absorpt_correction_T_max     ?
+_exptl_special_details
+; ?
+;
+_diffrn_ambient_temperature     293(2)
+_diffrn_radiation_type     'Cu K\a~1~,\a~2~'
+loop_
+    _diffrn_radiation_wavelength
+    '1.540562, 1.544390'
+_diffrn_radiation_source     'RIGAKU_RINT2500V rotaing Cu anode'
+_diffrn_radiation_monochromator     ?
+_diffrn_measurement_device     'RIGAKU_RINT2500V'
+_diffrn_measurement_method     '\q/2\q step scans'
+_diffrn_reflns_theta_min     6.29
+_diffrn_reflns_theta_max     59.98
+_diffrn_reflns_limit_h_min     0
+_diffrn_reflns_limit_h_max     10
+_diffrn_reflns_limit_k_min     0
+_diffrn_reflns_limit_k_max     12
+_diffrn_reflns_limit_l_min     0
+_diffrn_reflns_limit_l_max     6
+_reflns_number_total     248
+_refine_ls_structure_factor_coef     ?
+_refine_ls_matrix_type     ?
+_refine_ls_R_factor_all     .0247
+_refine_ls_goodness_of_fit_all     1.3236
+_refine_ls_restrained_S_all     ?
+_refine_ls_restrained_S_obs     ?
+_refine_ls_number_parameters     43
+_refine_ls_number_restraints     ?
+_refine_ls_number_constraints     4
+_refine_ls_hydrogen_treatment     ?
+_refine_ls_weighting_scheme     ?
+_refine_ls_shift/esd_max     <0.001
+_refine_ls_shift/esd_mean     0.00
+_refine_ls_extinction_method     ?
+_refine_ls_extinction_coef     ?
+_refine_ls_abs_structure_details     ?
+_refine_ls_abs_structure_Flack     ?
+loop_
+    _atom_type_symbol
+    _atom_type_description
+    _atom_type_scat_dispersion_real
+    _atom_type_scat_dispersion_imag
+    _atom_type_scat_source
+    'O' 'O' 0.049 0.032 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+    'Ga' 'Ga' -8.838 11.916
+                         'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+    'Gd' 'Gd' -1.285 0.776
+                         'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+_computing_data_collection     'RISM (Rigaku Corporation, 1995)'
+_computing_cell_refinement     '?'
+_computing_data_reduction     '?'
+_computing_structure_solution     'EXPO (Altomare et al., 1998)'
+_computing_structure_refinement     'RIETAN97 (Izumi, 1997)'
+_computing_molecular_graphics     'ATOMS (Dowty, 1998)'
+_computing_publication_material     ?
+loop_
+    _atom_site_label
+    _atom_site_fract_x
+    _atom_site_fract_y
+    _atom_site_fract_z
+    _atom_site_U_iso_or_equiv
+    _atom_site_occupancy
+    Gd1 0.19320(14) 0.10615(14) 0.44679(9) 0.0008(4) 1.0
+    Gd2 0 0.3958(2) 0.4029(9) 0.0008 1.0
+    Ga 0 0.1947(4) 0 0.0003(13) 1.0
+    O1 0.155(2) 0.2512(14) 0.183(3) 0.004(3) 1.0
+    O2 0.338(2) 0.013(2) 0.219(5) 0.004 1.0
+    O3 0 0.049(2) 0.167(5) 0.004 1.0
+    O4 0 0.202(2) 0.661(4) 0.004 1.0
+_geom_special_details     ?
+loop_
+    _geom_bond_atom_site_label_1
+    _geom_bond_atom_site_label_2
+    _geom_bond_site_symmetry_1
+    _geom_bond_site_symmetry_2
+    _geom_bond_distance
+    _geom_bond_publ_flag
+    Gd1 O2 . . 2.08(2) yes
+    Gd1 O1 . . 2.21(2) yes
+    Gd1 O4 . . 2.36(2) yes
+    Gd1 O2 . 3_555 2.39(2) yes
+    Gd1 O3 . . 2.41(2) yes
+    Gd1 O1 . 6_555 2.48(2) yes
+    Gd1 O3 . 2_555 2.74(2) yes
+    Gd2 O2 . 8_555 2.21(2) yes
+    Gd2 O2 . 5_455 2.21(2) yes
+    Gd2 O1 . . 2.46(2) yes
+    Gd2 O1 . 4_555 2.46(2) yes
+    Gd2 O2 . 6_555 2.49(2) yes
+    Gd2 O2 . 7_455 2.49(2) yes
+    Gd2 O4 . . 2.60(2) yes
+    Ga O1 . . 1.83(2) yes
+    Ga O1 . 4_555 1.83(2) yes
+    Ga O4 . 1_554 1.86(2) yes
+    Ga O3 . . 1.89(2) yes
+loop_
+    _geom_angle_atom_site_label_1
+    _geom_angle_atom_site_label_2
+    _geom_angle_atom_site_label_3
+    _geom_angle_site_symmetry_1
+    _geom_angle_site_symmetry_2
+    _geom_angle_site_symmetry_3
+    _geom_angle
+    _geom_angle_publ_flag
+    O1 Ga O4 . . 1_554 122.1(7) yes
+    O1 Ga O3 . . . 92.2(8) yes
+    O1 Ga O1 . . 4_555 99.0(12) yes
+    O4 Ga O3 1_554 . . 121.8(12) yes
+    O4 Ga O1 1_554 . 4_555 122.1(7) yes
+    O3 Ga O1 . . 4_555 92.2(8) yes
+

@@ -1,0 +1,43 @@
+*data for   ICSD #82487
+CopyRight   ©2002 by Fachinformationszentrum Karlsruhe, and the U.S. Secretary of 
+            Commerce on behalf of the United States.  All rights reserved.
+Coll Code   82487
+Rec  Date   1997/11/10
+Mod  Date   1999/11/30
+Chem Name   Calcium Titanate
+Structured  Ca (Ti O3)
+Sum         Ca1 O3 Ti1
+ANX         ABX3
+Min Name    Perovskite
+D(calc)     4.04
+Title       A single-crystal infrared spectroscopic and X-ray diffraction study 
+            of untwinned San Benito perovskite containing O H groups
+Author(s)   Beran, A.;Libowitzky, E.;Armbruster, T.
+Reference   Canadian Mineralogist
+            (1996), 34, 803-809
+Unit Cell   5.380(1) 5.440(1) 7.639(1) 90. 90. 90.
+Vol         223.57
+Z           4
+Space Group P b n m
+SG Number   62
+Cryst Sys   orthorhombic
+Pearson     oP20
+Wyckoff     d c2 b
+R Value     0.027
+Red Cell    P  5.38 5.44 7.639 90 90 90 223.572
+Trans Red   1.000 0.000 0.000 / 0.000 1.000 0.000 / 0.000 0.000 1.000
+Comments    PDF 42-423
+            Calculated density unusual but tolerable.
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Ti   1  +4    4 b   0           0.5         0              1.         0    
+ Ca   1  +2    4 c   0.00648(8)  0.0356(1)   0.25           1.         0    
+ O    1  -2    4 c   0.5711(3)   -.0161(3)   0.25           1.         0    
+ O    2  -2    8 d   0.2897(2)   0.2888(2)   0.0373(2)      1.         0    
+Lbl  Type      U11         U22         U33         U12         U13         U23
+Ti1  Ti4+ 0.0059(2)   0.0052(2)   0.0045(2)   0.0000(1)   0.0000(1)   0.00025(9)  
+Ca1  Ca2+ 0.0082(2)   0.0083(2)   0.0079(2)   0.0016(2)   0           0           
+O1   O2-  0.0082(6)   0.0086(7)   0.0045(5)   0.0002(5)   0           0           
+O2   O2-  0.0065(4)   0.0060(4)   0.0095(4)   0.0020(4)   -.0008(3)   -.0010(3)   
+*end for    ICSD #82487
+
+

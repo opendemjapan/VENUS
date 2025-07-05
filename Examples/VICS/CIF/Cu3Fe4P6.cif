@@ -1,0 +1,331 @@
+#======================================================================
+ 
+data_RIETAN_publ
+ 
+#======================================================================
+ 
+_audit_creation_date  2002-07-08
+_audit_creation_method  'Converted from *.lst using lst2cif'
+ 
+#======================================================================
+ 
+# SUBMISSION DETAILS
+ 
+ 
+_publ_contact_author_name          '?'
+_publ_contact_author_address
+;
+;
+_publ_contact_author_email         ?
+_publ_contact_author_fax           '?'
+_publ_contact_author_phone         '?'
+ 
+_publ_requested_journal            '?'
+_publ_requested_category           ?
+ 
+_publ_contact_letter
+;
+;
+ 
+ 
+#======================================================================
+ 
+# PROCESSING SUMMARY (IUCr Office Use Only)
+ 
+#_journal_date_recd_electronic
+#_journal_date_to_coeditor
+#_journal_date_from_coeditor
+#_journal_date_accepted
+#_journal_date_printers_first
+#_journal_date_printers_final
+#_journal_date_proofs_out
+#_journal_date_proofs_in
+#_journal_coeditor_name
+#_journal_coeditor_code
+#_journal_coeditor_notes
+#_journal_techeditor_code
+#_journal_paper_category
+#_journal_compatibility_tag
+#_journal_techeditor_notes
+#_journal_coden_ASTM
+#_journal_name_full
+#_journal_year
+#_journal_volume
+#_journal_issue
+#_journal_page_first
+#_journal_page_last
+#_journal_suppl_publ_number
+#_journal_suppl_publ_pages
+ 
+ 
+#======================================================================
+ 
+# TITLE AND AUTHOR LIST
+ 
+_publ_section_title
+;
+;
+ 
+# The loop structure below should contain the names and addresses of all
+# authors, in the required order of publication. Repeat as necessary.
+ 
+loop_
+   _publ_author_name
+   _publ_author_address
+   '?'
+;
+;
+ 
+ 
+#======================================================================
+ 
+# TEXT
+ 
+_publ_section_synopsis
+;
+;
+ 
+_publ_section_abstract
+;
+;
+ 
+_publ_section_comment
+;
+;
+ 
+_publ_section_exptl_prep
+;
+;
+ 
+_publ_section_exptl_refinement
+;
+;
+ 
+_publ_section_references
+;
+;
+ 
+_publ_section_figure_captions
+;
+;
+ 
+_publ_section_acknowledgements
+;
+;
+ 
+ 
+#======================================================================
+ 
+# CRYSTAL DATA
+ 
+#----------------------------------------------------------------------
+data_RIETAN_phase_1
+ 
+_pd_block_id
+      '2002-07-08|PHASE_01|..creator_name..|..instr_name..'
+ 
+_pd_phase_name                         Cu3Fe4(PO4)6
+_cell_length_a                         7.9296(1)       
+_cell_length_b                         9.3275(2)       
+_cell_length_c                         6.2555(1)       
+_cell_angle_alpha                      107.160(1)       
+_cell_angle_beta                       101.011(1)       
+_cell_angle_gamma                      105.830(1)       
+_cell_volume                           406.34(1)     
+_cell_formula_units                    ?
+_symmetry_cell_setting                 triclinic      
+_symmetry_space_group_name_H-M         'P -1'
+_symmetry_Int_Tables_number              2
+ 
+loop_
+   _symmetry_equiv_pos_site_id
+   _symmetry_equiv_pos_as_xyz
+     1   x,y,z
+     2   -x,-y,-z
+ 
+loop_
+   _atom_site_label
+   _atom_site_symmetry_multiplicity
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_thermal_displace_type
+   _atom_site_B_iso_or_equiv
+   _atom_site_type_symbol
+   M1       2 1.0        0.4480(4)   0.1169(4)   0.3864(6)  Biso  0.04(8)   Fe3+
+   M2       2 1.0       -0.1967(3)   0.2743(3)   0.2672(4)  Biso  1.16(8)   Cu2+
+   M3       2 1.0       -0.2799(4)  -0.4747(4)   0.0472(5)  Biso  0.28(9)   Fe3+
+   M4       1 0.9376     0.0         0.0         0.0        Biso  2.2(1)    Cu2+
+   P1       2 1.0       -0.4007(7)  -0.1666(6)   0.0983(9)  Biso  1.0(1)    P   
+   P2       2 1.0        0.2309(6)   0.3706(5)   0.4022(9)  Biso  0.1(1)    P   
+   P3       2 1.0        0.1466(7)  -0.2356(6)   0.2302(8)  Biso  1.0(1)    P   
+   O1       2 1.0        0.032(1)    0.245(1)    0.288(1)   Biso  0.50(7)   O-  
+   O2       2 1.0       -0.462(1)   -0.083(1)    0.311(2)   Biso  0.50(7)   O-  
+   O3       2 1.0        0.276(1)    0.464(1)    0.248(2)   Biso  0.50(7)   O-  
+   O4       2 1.0        0.359(1)    0.278(1)    0.439(1)   Biso  0.50(7)   O-  
+   O5       2 1.0        0.271(1)   -0.223(1)    0.465(2)   Biso  0.50(7)   O-  
+   O6       2 1.0       -0.453(1)   -0.347(1)    0.068(1)   Biso  0.50(7)   O-  
+   O7       2 1.0       -0.188(1)   -0.077(1)    0.133(1)   Biso  0.50(7)   O-  
+   O8       2 1.0       -0.475(1)    0.164(1)    0.122(2)   Biso  0.50(7)   O-  
+   O9       2 1.0       -0.201(1)    0.332(1)   -0.013(2)   Biso  0.50(7)   O-  
+   O10      2 1.0       -0.248(1)   -0.496(1)    0.360(2)   Biso  0.50(7)   O-  
+   O11      2 1.0        0.203(1)   -0.053(1)    0.233(1)   Biso  0.50(7)   O-  
+   O12      2 1.0       -0.055(1)   -0.302(1)    0.206(2)   Biso  0.50(7)   O-  
+#----------------------------------------------------------------------
+data_RIETAN_phase_2
+ 
+_pd_block_id
+      '2002-07-08|PHASE_02|..creator_name..|..instr_name..'
+ 
+_pd_phase_name                         Cu3(PO4)2
+_cell_length_a                         4.85642          
+_cell_length_b                         5.29074          
+_cell_length_c                         6.18724          
+_cell_angle_alpha                      72.3626          
+_cell_angle_beta                       86.9965          
+_cell_angle_gamma                      68.5473          
+_cell_volume                           140.7001        
+_cell_formula_units                    ?
+_symmetry_cell_setting                 triclinic      
+_symmetry_space_group_name_H-M         'P -1'
+_symmetry_Int_Tables_number              2
+ 
+loop_
+   _symmetry_equiv_pos_site_id
+   _symmetry_equiv_pos_as_xyz
+     1   x,y,z
+     2   -x,-y,-z
+ 
+loop_
+   _atom_site_label
+   _atom_site_symmetry_multiplicity
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_thermal_displace_type
+   _atom_site_B_iso_or_equiv
+   _atom_site_type_symbol
+   Cu1      1 1.0        0.0         0.0         0.0        Biso  1.0       Cu2+
+   Cu2      2 1.0        0.29117     0.24661     0.30896    Biso  1.0       Cu2+
+   P21      2 1.0        0.34286     0.35759     0.74501    Biso  1.0       P   
+   O21      2 1.0       -0.1536      0.3443      0.3389     Biso  1.0       O-  
+   O22      2 1.0        0.3324      0.6515      0.1695     Biso  1.0       O-  
+   O23      2 1.0        0.2303      0.2274      0.0049     Biso  1.0       O-  
+   O24      2 1.0        0.3786      0.1498      0.6334     Biso  1.0       O-  
+#----------------------------------------------------------------------
+data_RIETAN_phase_3
+ 
+_pd_block_id
+      '2002-07-08|PHASE_03|..creator_name..|..instr_name..'
+ 
+_pd_phase_name                         Cu2P2O7
+_cell_length_a                         6.85128          
+_cell_length_b                         8.11775          
+_cell_length_c                         9.15352          
+_cell_angle_alpha                      90.0                
+_cell_angle_beta                       109.3000          
+_cell_angle_gamma                      90.0                
+_cell_volume                           480.4807        
+_cell_formula_units                    ?
+_symmetry_cell_setting                 monoclinic     
+_symmetry_space_group_name_H-M         'C 2/c'
+_symmetry_Int_Tables_number             15
+ 
+loop_
+   _symmetry_equiv_pos_site_id
+   _symmetry_equiv_pos_as_xyz
+     1   x,y,z
+     2   -x,y,-z+1/2
+     3   -x,-y,-z
+     4   x,-y,z+1/2
+ 
+loop_
+   _atom_site_label
+   _atom_site_symmetry_multiplicity
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_thermal_displace_type
+   _atom_site_B_iso_or_equiv
+   _atom_site_type_symbol
+   Cu3      8 1.0       -0.02983     0.31894     0.51051    Biso  1.0       Cu2+
+   P31      8 1.0        0.19085    -0.00087     0.1965     Biso  1.0       P   
+   O31      4 1.0        0.0         0.0466      0.25       Biso  1.0       O-  
+   O32      8 1.0        0.3757      0.0002      0.3614     Biso  1.0       O-  
+   O33      8 1.0        0.2208      0.1559      0.1128     Biso  1.0       O-  
+   O34      8 1.0        0.1785     -0.1508      0.1179     Biso  1.0       O-  
+ 
+#======================================================================
+ 
+# POWDER SPECIMEN AND EXPERIMENTAL DATA
+ 
+data_RIETAN_p_01
+ 
+_pd_block_id
+      '2002-07-08|POWSET_01|..creator_name..|..instr_name..'
+_pd_meas_datetime_initialed            ?
+_pd_meas_info_author_name              "?"
+_pd_meas_info_author_email             ?
+_pd_meas_info_author_address
+;
+;
+ 
+_pd_calc_method                       "Rietveld Refinement"
+_diffrn_ambient_temperature           ?
+_diffrn_ambient_environment           ?
+_diffrn_source                        '?'
+_diffrn_source_target                 ?
+_diffrn_source_type                   ?
+_diffrn_measurement_device_type       '?'
+_diffrn_detector                      '?'
+_diffrn_detector_type                 ?
+_pd_meas_scan_method                  step
+_pd_meas_special_details
+;
+;
+_diffrn_radiation_type                'Cu K\\a~1~'
+_diffrn_radiation_wavelength         1.54056
+_diffrn_radiation_monochromator      none
+ 
+_pd_meas_2theta_range_min        10.000   
+_pd_meas_2theta_range_max        109.990  
+_pd_meas_2theta_range_inc        0.010    
+_pd_meas_number_of_points        0                
+ 
+ 
+#======================================================================
+ 
+# REFINEMENT DATA
+ 
+_pd_proc_ls_special_details
+;
+;
+ 
+_pd_proc_ls_profile_function      ?
+_pd_proc_ls_background_function   '?'
+_pd_proc_ls_pref_orient_corr
+;
+;
+ 
+_pd_proc_ls_prof_R_factor         0.012      
+_pd_proc_ls_prof_wR_factor        0.015      
+_pd_proc_ls_prof_wR_expected      0.012      
+_refine_special_details
+;
+;
+ 
+_refine_ls_structure_factor_coef    Inet
+_refine_ls_matrix_type              ?
+_refine_ls_weighting_sheme          '?'
+_refine_ls_hydrogen_treatment       noref
+_refine_ls_extinction_method        none
+_refine_ls_extinction_coef          ?
+_refine_ls_number_parameters        ?
+_refine_ls_number_constraints       23         
+_refine_ls_goodness_of_fit_all      1.23       
+ 
+ 
+#--eof--eof--eof--eof--eof--eof--eof--eof--eof--eof--eof--eof--eof--eof--eof--#
